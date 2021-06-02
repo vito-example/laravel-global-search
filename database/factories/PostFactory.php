@@ -29,9 +29,7 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' =>function() {
-                return $this->create(User::class)->id;
-            },
+            'user_id' =>User::all()->random()->id,
             'title' => $this->faker->realText(40),
             'body' => $this->faker->realText(150),
         ];
