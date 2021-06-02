@@ -18,6 +18,8 @@ use Illuminate\Database\Eloquent\Model;
  * @property integer $user_id
  * @property string $title
  * @property string $body
+ * @property string $created_at
+ * @property string $updated_at
  */
 class Post extends Model
 {
