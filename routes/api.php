@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\GlobalSearchController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,4 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/global-search', [GlobalSearchController::class, 'index']);
+Route::get('/global-search', [\App\Http\Controllers\GlobalSearchController::class, 'index']);
