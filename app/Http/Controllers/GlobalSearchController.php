@@ -21,6 +21,7 @@ class GlobalSearchController extends Controller
      * @param \Illuminate\Http\Request $request
      */
     public function index(Request $request) {
+
         //
     }
 }
