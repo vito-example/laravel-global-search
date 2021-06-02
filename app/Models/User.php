@@ -3,7 +3,7 @@
  *  app/Models/User.php
  *
  * Date-Time: 02.06.21
- * Time: 13:16
+ * Time: 13:17
  * @author Vito Makhatadze <vitomaxatadze@gmail.com>
  */
 namespace App\Models;
